@@ -65,7 +65,7 @@ resource "dbtcloud_repository" "dvd_terraform_github_repo" {
   # of the relevant integration / org (there could be multiple, e.g. single user
   # in mulitple organitsations!)
 
-  github_installation_id = var.github_installation_id
+  github_installation_id = var.GITHUB_INSTALLATION_ID
   git_clone_strategy     = "github_app"
 }
 

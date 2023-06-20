@@ -2,7 +2,7 @@ variable "base_name" {
   type        = string
   description = "The root name for all the objects"
 }
-variable "github_installation_id" {
+variable "GITHUB_INSTALLATION_ID" {
   type        = number
   description = "The github app installation id for the relevant repo"
 }
@@ -31,4 +31,7 @@ variable "SNOWFLAKE_PASSWORD" {
 variable "USER_EMAIL" {
   type      = string
   sensitive = true
+}
+variable "dummy_variable" {
+  type = string
 }
